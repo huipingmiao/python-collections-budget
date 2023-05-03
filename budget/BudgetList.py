@@ -20,7 +20,7 @@ class BudgetList():
         return (len(self.expenses) + len(self.overages))
 
 def main():
-    myBudgetList = BudgetList(12000)
+    myBudgetList = BudgetList(1200)
     expenses = Expense.Expenses()
     expenses.read_expenses('data/spending_data.csv')
     
